@@ -9,7 +9,7 @@ This script is a modified version of the script provided by Dell. It is not endo
 
 # Usage
 
-1. Download the official tar for the iDrac Service module from dells webiste. This scripts has been tested and confirmed working with version `OM-iSM-Dell-Web-LX-350-1862_A00`
+1. Download the official tar for the iDrac Service module from dells webiste. This script has been tested and confirmed working with version `OM-iSM-Dell-Web-LX-350-1862_A00`
 
 2. Extract the tar and replace the setup.sh script with the one from this repository
 
@@ -23,7 +23,6 @@ This script is a modified version of the script provided by Dell. It is not endo
 Two changes have been made to this script
 
 1. Changed the `$VERSION_ID` variable to `$VERSION` to match the changes to the `os-release` file that comes on UBUNTU 20.04
+Change is on line 391
 
-2. Changed the check to be `20` instead of `18`
-
-Both of these changes were made on line `399`
+2. Changed the check to be `20` instead of `18` change is on line 399
